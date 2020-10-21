@@ -6,5 +6,8 @@ $(function(){
     $('.main-logo').load('public.html .logo');
     // 购物车
     $('.main-cart').load('public.html .top-cart');
-    
+    // 页面底部
+    $('.foot').load('public.html footer');
+    // 回到顶部
+    $('.top').load('public.html .toTop');
 })

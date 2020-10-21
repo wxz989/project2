@@ -226,6 +226,158 @@ img {
   text-decoration: underline  #e20000;
 }
 
+footer {
+  width: 100%;
+  height: 461px;
+  background: #f7f7f7;
+}
+
+footer .footer-content {
+  width: 1210px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+footer .footer-content .main-service {
+  width: 100%;
+  padding: 28px 5px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-content .main-service .main-service-list {
+  width: 140px;
+}
+
+footer .footer-content .main-service .main-service-list dt {
+  border-bottom: 1px solid #c9c9c9;
+  color: #666;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 6px;
+  text-align: center;
+  position: relative;
+}
+
+footer .footer-content .main-service .main-service-list dd {
+  background: url(../images/footer-dd-icon.png) no-repeat;
+  font-size: 13px;
+  line-height: 20px;
+  padding-left: 20px;
+}
+
+footer .footer-content .main-service .main-service-list dd a {
+  color: #666;
+}
+
+footer .footer-content .main-service .main-service-ebook dd {
+  line-height: 26px;
+}
+
+footer .footer-content .main-service .main-service-ebook dd:first-of-type {
+  background: url(../images/footer-dd-icon.png) no-repeat 0px -26px;
+}
+
+footer .footer-content .main-service .main-service-ebook dd:nth-of-type(2) {
+  background: url(../images/footer-dd-icon.png) no-repeat 0px -52px;
+}
+
+footer .footer-content .main-service .main-service-ebook dd:nth-of-type(3) {
+  background: url(../images/footer-dd-icon.png) no-repeat 0px -78px;
+}
+
+footer .footer-content .main-service .main-service-ebook dd:last-of-type {
+  background: url(../images/footer-dd-icon.png) no-repeat 0px -104px;
+}
+
+footer .footer-content .center {
+  width: 1195px;
+  height: 110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer-content .center > div {
+  height: 55px;
+  color: #444;
+  font-size: 20px;
+  margin-top: 25px;
+  font-weight: 600;
+}
+
+footer .footer-content .center > div .icon_bg {
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  vertical-align: bottom;
+  color: transparent;
+}
+
+footer .footer-content .center > div .icon_bg1 {
+  background: url(../images/footer-icon-bg1.png) no-repeat;
+}
+
+footer .footer-content .center > div .icon_bg2 {
+  background: url(../images/footer-icon-bg2.png) no-repeat;
+}
+
+footer .footer-content .center > div .icon_bg3 {
+  background: url(../images/footer-icon-bg3.png) no-repeat;
+}
+
+footer .footer-content .center > div .icon_bg4 {
+  background: url(../images/footer-icon-bg4.png) no-repeat;
+}
+
+footer .footer-content .center > div div {
+  display: inline-block;
+  border-left: 1px solid #E6E6E6;
+  padding-left: 16px;
+  margin-left: 13px;
+  color: #444;
+  line-height: 26px;
+}
+
+footer .footer-content .bottom {
+  text-align: center;
+  margin-top: 26px;
+}
+
+footer .footer-content .bottom a {
+  color: #666;
+}
+
+footer .footer-content .bottom a:hover {
+  color: #dc0014;
+  text-decoration: underline;
+}
+
+footer .footer-content .bottom .winshare_info {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+footer .footer-content .bottom .putOnrecords {
+  color: #666;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.toTop {
+  position: fixed;
+  bottom: 20px;
+  left: 1375px;
+}
+
+.toTop img {
+  width: auto;
+  border-radius: 5px;
+}
+
 header {
   z-index: 999;
 }
@@ -836,158 +988,6 @@ header {
 .shop-content .other .other-item .part3 .part3-item p a {
   font-size: 13px;
   color: #999;
-}
-
-footer {
-  width: 100%;
-  height: 461px;
-  background: #f7f7f7;
-}
-
-footer .footer-content {
-  width: 1210px;
-  margin: 0 auto;
-  padding-top: 20px;
-}
-
-footer .footer-content .main-service {
-  width: 100%;
-  padding: 28px 5px 25px;
-  display: flex;
-  justify-content: space-between;
-}
-
-footer .footer-content .main-service .main-service-list {
-  width: 140px;
-}
-
-footer .footer-content .main-service .main-service-list dt {
-  border-bottom: 1px solid #c9c9c9;
-  color: #666;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 28px;
-  margin-bottom: 6px;
-  text-align: center;
-  position: relative;
-}
-
-footer .footer-content .main-service .main-service-list dd {
-  background: url(../images/footer-dd-icon.png) no-repeat;
-  font-size: 13px;
-  line-height: 20px;
-  padding-left: 20px;
-}
-
-footer .footer-content .main-service .main-service-list dd a {
-  color: #666;
-}
-
-footer .footer-content .main-service .main-service-ebook dd {
-  line-height: 26px;
-}
-
-footer .footer-content .main-service .main-service-ebook dd:first-of-type {
-  background: url(../images/footer-dd-icon.png) no-repeat 0px -26px;
-}
-
-footer .footer-content .main-service .main-service-ebook dd:nth-of-type(2) {
-  background: url(../images/footer-dd-icon.png) no-repeat 0px -52px;
-}
-
-footer .footer-content .main-service .main-service-ebook dd:nth-of-type(3) {
-  background: url(../images/footer-dd-icon.png) no-repeat 0px -78px;
-}
-
-footer .footer-content .main-service .main-service-ebook dd:last-of-type {
-  background: url(../images/footer-dd-icon.png) no-repeat 0px -104px;
-}
-
-footer .footer-content .center {
-  width: 1195px;
-  height: 110px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-around;
-}
-
-footer .footer-content .center > div {
-  height: 55px;
-  color: #444;
-  font-size: 20px;
-  margin-top: 25px;
-  font-weight: 600;
-}
-
-footer .footer-content .center > div .icon_bg {
-  display: inline-block;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  vertical-align: bottom;
-  color: transparent;
-}
-
-footer .footer-content .center > div .icon_bg1 {
-  background: url(../images/footer-icon-bg1.png) no-repeat;
-}
-
-footer .footer-content .center > div .icon_bg2 {
-  background: url(../images/footer-icon-bg2.png) no-repeat;
-}
-
-footer .footer-content .center > div .icon_bg3 {
-  background: url(../images/footer-icon-bg3.png) no-repeat;
-}
-
-footer .footer-content .center > div .icon_bg4 {
-  background: url(../images/footer-icon-bg4.png) no-repeat;
-}
-
-footer .footer-content .center > div div {
-  display: inline-block;
-  border-left: 1px solid #E6E6E6;
-  padding-left: 16px;
-  margin-left: 13px;
-  color: #444;
-  line-height: 26px;
-}
-
-footer .footer-content .bottom {
-  text-align: center;
-  margin-top: 26px;
-}
-
-footer .footer-content .bottom a {
-  color: #666;
-}
-
-footer .footer-content .bottom a:hover {
-  color: #dc0014;
-  text-decoration: underline;
-}
-
-footer .footer-content .bottom .winshare_info {
-  color: #666;
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-footer .footer-content .bottom .putOnrecords {
-  color: #666;
-  font-size: 13px;
-  line-height: 25px;
-}
-
-.toTop {
-  position: fixed;
-  bottom: 20px;
-  left: 1375px;
-}
-
-.toTop img {
-  width: auto;
-  border-radius: 5px;
 }
 
 .show {

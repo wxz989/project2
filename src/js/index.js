@@ -16,6 +16,9 @@ $(function(){
     $('.category-option .cat-item').hover(function () { $(this).toggleClass('hover') })
     //图片轮播
     jQuery(".scroll-banner").slide({ mainCell: ".scroll-content", titCell: ".scroll-btn span", titOnClassName: "current", effect: "fold", autoPlay: true, delayTime: 500, interTime: 1000 });
+
+    // 链接底部页面
+    $('.foot').load('./pages/public.html footer');
 })
 
 
