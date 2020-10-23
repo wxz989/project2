@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>欢迎进入文轩</title>
+    
     <link rel="stylesheet" href="./css/index.min.css">
     <link rel="stylesheet" href="./css/index-banner.min.css">
     <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
@@ -25,8 +26,8 @@
                 <ul class="left-login">
                     <li>欢迎光临文轩网 !</li>
                     <li>
-                        <a href="javascript:;">请 <span class="red">登录</span></a>
-                        <a href="javascript:;">免费注册</a>
+                        <a href="./pages/login.html">请 <span class="red">登录</span></a>
+                        <a href="./pages/register.html">免费注册</a>
                     </li>
                 </ul>
                 <ul class="right-nav">
@@ -105,6 +106,24 @@
         </div>
 
     </header>
+    <div class="hidden-header">
+        <div class="master-content">
+            <div class="master-logo">
+                <a href="javascript:;">
+                    <img src="./images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="master-search">
+                <form method="get" action="https://search.winxuan.com/search" name="searchForm">
+                    <div class="master-search-box cf"> 
+                        <img class="master-search-input-icon" src="./images/index-search.png" alt=""> 
+                        <input class="master-search-input fl ac_input" type="text">
+                        <button class="master-search-btn fl" type="button"> 搜索 </button> 
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
     <!-- 轮播的banner图以及导航 -->
     <div class="banner">
         <!-- 菜单栏 100%-->
@@ -763,7 +782,7 @@
                 </div>
                 <p class="gotoDetail">点击查看更多 >></p>
             </a>
-            <div class="product-list">
+            <!-- <div class="product-list">
                 <a href="javascript:;">
                     <img src="./images/timer1.jpg" alt="">
                     <p class="bookName" title="【天府书展，五折封顶】给孩子的数学四书 学数学原来这么简单(4册)">【天府书展，五折封顶】给孩子的数学四书 学数学原来这么简单(4册)</p>
@@ -772,87 +791,7 @@
                         <del>￥148.0</del>
                     </div>
                 </a>
-            </div>
-            <div class="product-list">
-                <a href="javascript:;">
-                    <img src="./images/timer2.jpg" alt="">
-                    <p class="bookName" title="【天府书展，五折封顶】宝宝早教启蒙全书•经典唐诗100首">【天府书展，五折封顶】宝宝早教启蒙全书•经典唐诗100首</p>
-                    <div class="price">
-                        <span class="seckill-price">秒杀价: ￥6.2</span>
-                        <del>￥13.8</del>
-                    </div>
-                </a>
-            </div>
-            <div class="product-list">
-                <a href="javascript:;">
-                    <img src="./images/timer3.jpg" alt="">
-                    <p class="bookName" title="【天府书展，五折封顶】米小圈漫画成语(第2版)(全5册)">【天府书展，五折封顶】米小圈漫画成语(第2版)(全5册)</p>
-                    <div class="price">
-                        <span class="seckill-price">秒杀价: ￥40.0</span>
-                        <del>￥100.0</del>
-                    </div>
-                </a>
-            </div>
-            <div class="product-list">
-                <a href="javascript:;">
-                    <img src="./images/timer4.jpg" alt="">
-                    <p class="bookName" title="【天府书展，五折封顶】赢在执行(员工版)第2版">【天府书展，五折封顶】赢在执行(员工版)第2版</p>
-                    <div class="price">
-                        <span class="seckill-price">秒杀价: ￥14.4</span>
-                        <del>￥32.0</del>
-                    </div>
-                </a>
-            </div>
-            <div class="product-list">
-                <a href="javascript:;">
-                    <img src="./images/timer5.jpg" alt="">
-                    <p class="bookName" title="【天府书展，五折封顶】精油大全">【天府书展，五折封顶】精油大全</p>
-                    <div class="price">
-                        <span class="seckill-price">秒杀价: ￥27.2</span>
-                        <del>￥68.0</del>
-                    </div>
-                </a>
-            </div>
-            <div class="product-list">
-                <a href="javascript:;">
-                    <img src="./images/timer6.jpg" alt="">
-                    <p class="bookName" title="【天府书展，五折封顶】浮生六记">【天府书展，五折封顶】浮生六记</p>
-                    <div class="price">
-                        <span class="seckill-price">秒杀价: ￥11.5</span>
-                        <del>￥46.0</del>
-                    </div>
-                </a>
-            </div>
-            <div class="product-list">
-                <a href="javascript:;">
-                    <img src="./images/timer7.jpg" alt="">
-                    <p class="bookName" title="【天府书展，五折封顶】黄蓓佳倾情小说•猎人海力布（拼音版）">【天府书展，五折封顶】黄蓓佳倾情小说•猎人海力布（拼音版）</p>
-                    <div class="price">
-                        <span class="seckill-price">秒杀价: ￥7.4</span>
-                        <del>￥16.0</del>
-                    </div>
-                </a>
-            </div>
-            <div class="product-list">
-                <a href="javascript:;">
-                    <img src="./images/timer8.jpg" alt="">
-                    <p class="bookName" title="【天府书展，五折封顶】儿童文学名家经典书系•草原上的小木屋">【天府书展，五折封顶】儿童文学名家经典书系•草原上的小木屋</p>
-                    <div class="price">
-                        <span class="seckill-price">秒杀价: ￥8.7</span>
-                        <del>￥22.8</del>
-                    </div>
-                </a>
-            </div>
-            <div class="product-list">
-                <a href="javascript:;">
-                    <img src="./images/timer9.jpg" alt="">
-                    <p class="bookName" title="【天府书展，五折封顶】国际大奖小说注音版 存梦银行">【天府书展，五折封顶】国际大奖小说注音版 存梦银行</p>
-                    <div class="price">
-                        <span class="seckill-price">秒杀价: ￥8.0</span>
-                        <del>￥17.0</del>
-                    </div>
-                </a>
-            </div>
+            </div> -->
         </div>
         <!-- 每日精选 -->
         <div class="select">
@@ -861,7 +800,7 @@
             <ul class="select-theme">
                 <li>
                     <a href="javascript:;">童书 育儿</a>
-                    <!-- <div class="select-theme-item default">
+                    <div class="select-theme-item default">
                         <a href="javascript:;">绘本</a>
                         <a href="javascript:;">幼儿启蒙</a>
                         <a href="javascript:;">国学</a>
@@ -877,11 +816,11 @@
                         <a href="javascript:;">少儿英语</a>
                         <a href="javascript:;">兴趣培养</a>
                         <a href="javascript:;">童话</a>
-                    </div> -->
+                    </div>
                 </li>
                 <li>
                     <a href="javascript:;">文学 小说</a>
-                    <!-- <div class="select-theme-item">
+                    <div class="select-theme-item">
                         <a href="javascript:;">民间文学</a>
                         <a href="javascript:;">民间故事</a>
                         <a href="javascript:;">外国文学</a>
@@ -898,11 +837,11 @@
                         <a href="javascript:;">历史古籍</a>
                         <a href="javascript:;">名著读物</a>
                         <a href="javascript:;">作品集</a>
-                    </div> -->
+                    </div>
                 </li>
                 <li>
                     <a href="javascript:;">社科 经管</a>
-                    <!-- <div class="select-theme-item">
+                    <div class="select-theme-item">
                         <a href="javascript:;">中国共产党</a>
                         <a href="javascript:;">领导人著作</a>
                         <a href="javascript:;">马列主义</a>
@@ -916,11 +855,11 @@
                         <a href="javascript:;">餐饮管理</a>
                         <a href="javascript:;">股票期货</a>
                         <a href="javascript:;">房地产</a>
-                    </div> -->
+                    </div>
                 </li>
                 <li>
                     <a href="javascript:;">行业 职业</a>
-                    <!-- <div class="select-theme-item">
+                    <div class="select-theme-item">
                         <a href="javascript:;">编程语言</a>
                         <a href="javascript:;">数据库</a>
                         <a href="javascript:;">图形图像</a>
@@ -936,11 +875,11 @@
                         <a href="javascript:;">税务</a>
                         <a href="javascript:;">种植业</a>
                         <a href="javascript:;">养殖</a>
-                    </div> -->
+                    </div>
                 </li>
                 <li>
                     <a href="javascript:;">教材 教辅</a>
-                    <!-- <div class="select-theme-item">
+                    <div class="select-theme-item">
                         <a href="javascript:;">小学教材</a>
                         <a href="javascript:;">初中教材</a>
                         <a href="javascript:;">高中教材</a>
@@ -955,7 +894,7 @@
                         <a href="javascript:;">考研</a>
                         <a href="javascript:;">英语</a>
                         <a href="javascript:;">原版进口</a>
-                    </div> -->
+                    </div>
                 </li>
                 <li>
                     <a href="javascript:;">生活 艺术</a>
@@ -1150,111 +1089,7 @@
     </div>
     <!-- 底部 -->
     <div class="foot"></div>
-    <!-- <footer>
-        <div class="footer-content">
-            <div class="main-service service-link">
-                <dl class="main-service-list">
-                    <dt>新手入门</dt>
-                    <dd><a href="//www.winxuan.com/help/shopping_insurance.html" rel="nofollow" target="_blank">购物保障</a>
-                    </dd>
-                    <dd><a href="//www.winxuan.com/help/shopping_flow.html" rel="nofollow" target="_blank">购物流程</a></dd>
-                    <dd><a href="//www.winxuan.com/help/faq.html" rel="nofollow" target="_blank">常见问题</a></dd>
-                    <dd><a href="//www.winxuan.com/help/contact.html" rel="nofollow" target="_blank">联系客服</a></dd>
-                </dl>
-                <dl class="main-service-list">
-                    <dt>配送服务</dt>
-                    <dd><a href="//www.winxuan.com/help/delivery_info_dynamic_query.html" rel="nofollow"
-                            target="_blank">货到付款区域查询</a></dd>
-                    <dd><a href="//www.winxuan.com/help/delivery_info_dynamic_query.html" rel="nofollow"
-                            target="_blank">配送范围和时间</a></dd>
-                    <dd><a href="//www.winxuan.com/help/logistic_charge.html" rel="nofollow" target="_blank">配送收费标准</a>
-                    </dd>
-                    <dd><a href="//www.winxuan.com/help/logistic_company.html" rel="nofollow" target="_blank">快递查询入口</a>
-                    </dd>
-                    <dd><a href="//www.winxuan.com/help/logistic_accept.html" rel="nofollow" target="_blank">验货与签收</a>
-                    </dd>
-                </dl>
-                <dl class="main-service-list">
-                    <dt>支付方式</dt>
-                    <dd><a href="//www.winxuan.com/help/payment_on_arrival.html" rel="nofollow" target="_blank">货到付款</a>
-                    </dd>
-                    <dd><a href="//www.winxuan.com/help/payment_online.html" rel="nofollow" target="_blank">在线支付</a>
-                    </dd>
-                    <dd><a href="//www.winxuan.com/help/payment_by_transfer.html" rel="nofollow"
-                            target="_blank">银行转账/汇款</a></dd>
-                    <dd><a href="//www.winxuan.com/help/payment_others.html" rel="nofollow" target="_blank">其他支付方式</a>
-                    </dd>
-                    <dd><a href="//www.winxuan.com/help/payment_safe.html" rel="nofollow" target="_blank">交易安全防诈骗</a>
-                    </dd>
-                </dl>
-                <dl class="main-service-list">
-                    <dt>售后服务</dt>
-                    <dd><a href="//www.winxuan.com/help/return_rules.html" rel="nofollow" target="_blank">退换货规则</a></dd>
-                    <dd><a href="//www.winxuan.com/help/apply_after_sales.html" rel="nofollow"
-                            target="_blank">如何申请售后服务</a></dd>
-                    <dd><a href="//www.winxuan.com/help/return_capital.html" rel="nofollow" target="_blank">退款及提现</a>
-                    </dd>
-                </dl>
-                <dl class="main-service-list">
-                    <dt>我的订单</dt>
-                    <dd><a href="//www.winxuan.com/help/buy_demo.html" rel="nofollow" target="_blank">下单演示</a></dd>
-                    <dd><a href="//www.winxuan.com/help/order_state.html" rel="nofollow" target="_blank">订单状态/查询</a>
-                    </dd>
-                    <dd><a href="//www.winxuan.com/help/order_cancel.html" rel="nofollow" target="_blank">订单取消</a></dd>
-                    <dd><a href="//www.winxuan.com/help/invoice.html" rel="nofollow" target="_blank">发票制度</a></dd>
-                    <dd><a href="//www.winxuan.com/help/score.html" rel="nofollow" target="_blank">积分规则</a></dd>
-                </dl>
-                <dl class="main-service-list">
-                    <dt>文轩服务</dt>
-                    <dd><a href="//www.winxuan.com/help/gift_ticket.html" rel="nofollow" target="_blank">礼券（优惠券）</a>
-                    </dd>
-                    <dd><a href="//www.winxuan.com/giftcard" rel="nofollow" target="_blank">文轩购书卡</a></dd>
-                    <dd><a href="//www.winxuan.com/booktop/0/1/1/1" rel="nofollow" target="_blank">文轩好书推荐</a></dd>
-                    <dd><a href="//www.winxuan.com/help/terms.html" rel="nofollow" target="_blank">交易条款</a></dd>
-                </dl>
-                <dl class="main-service-list main-service-ebook">
-                    <dt>电子书阅读器</dt>
-                    <dd><a class="icon-service-ebook1" href="//www.9yue.com/readerapp/android2/9yue_reader.apk"
-                            target="_blank">Android</a></dd>
-                    <dd><a class="icon-service-ebook2" href="https://itunes.apple.com/app/jiu-yue-du-shu/id566826904"
-                            target="_blank">iPad</a></dd>
-                    <dd><a class="icon-service-ebook3"
-                            href="https://itunes.apple.com/app/jiu-yue-du-shu-for-iphone/id670670008"
-                            target="_blank">iPhone</a></dd>
-                    <dd><a class="icon-service-ebook4" href="//www.9yue.com/reader/9yueReader0.9.2.msi"
-                            target="_blank">PC阅读器</a></dd>
-                </dl>
-            </div>
-            <div class="center">
-                <div>
-                    <i class="icon_bg1 icon_bg">1</i>
-                    <div>正品保障 <br>假一赔五</div>
-                </div>
-                <div>
-                    <i class="icon_bg2 icon_bg">1</i>
-                    <div>一网打尽<br>更多优惠</div>
-                </div>
-                <div>
-                    <i class="icon_bg3 icon_bg">1</i>
-                    <div>800城市<br>北上广深次日达</div>
-                </div>
-                <div>
-                    <i class="icon_bg4 icon_bg">1</i>
-                    <div>电子发票<br>报销无忧</div>
-                </div>
-            </div>
-            <div class="bottom">
-                <p class="winshare_info"><a rel="nofollow" target="_blank" title="关于文轩"
-                        href="http://www.winxuan.com/company/about_us.html">关于文轩</a> |<a rel="nofollow" title="联系文轩"
-                        href="http://www.winxuan.com/company/contact_us.html">联系文轩</a> | <a rel="nofollow" title="加入文轩"
-                        href="http://www.winxuan.com/company/job.html">加入文轩</a> | <a rel="nofollow" title="合作伙伴"
-                        href="http://www.winxuan.com/company/partner.html">合作伙伴</a></p>
-                <p class="putOnrecords">川公网安备 51010602000457号 丨 <a
-                        href="https://www.winxuan.com/company/about_us.html">出版物经营许可证</a> 丨 蜀ICP备1101号<br>Copyright(C)
-                    文轩网2000-2020 版权所有 丨 客服热线：400-072-0808</p>
-            </div>
-        </div>
-    </footer> -->
+
 
 
     <!-- 固定页面的部分 -->
@@ -1284,6 +1119,72 @@
             <div class="nav-item "><a href="javascript:;" class="back-top">顶部</a></div>
         </div>
     </div>
+
+    <!-- 秒杀部分 -->
+    <script>
+       
+        $.get('./json/index.json',(data)=>{
+            console.log(data.miaosha);
+            data.miaosha.forEach((value,index) => {
+                // console.log(index,value);
+                $('.miaosha').append('<div class="product-list"></div>');
+                $('.product-list').eq(index).html(
+                    `
+                        <a href="javascript:;">
+                            <img src=${value.src} alt="">
+                            <p class="bookName">${value.name}</p>
+                            <div class="price">
+                                 <span class="seckill-price">秒杀价: ￥${value.price}</span>
+                                 <del>￥${value.del}</del>
+                             </div>
+                        </a>
+                    `
+                )
+            });
+        })
+
+
+        // $.get('./json/index.json',(data)=>{
+        //     console.log(data.miaosha);
+        //     $.each(data.miaosha,function(index,value){
+        //         alert(index);
+        //         alert(value); //[object object]
+        //         console.log(value[1].src);
+             
+        //     })
+        // })
+    </script>
+
+    <!-- 秒杀倒计时 -->
+    <script>
+        // 设置结束时间
+        let endTime = new Date(2020,10,23,17,24,0);
+        fn();
+        var timer = setInterval(fn,1000);
+        function fn(){
+            // 获取当前客户端时间
+            let nowDate = new Date();
+            // 总共还剩多少秒
+            let times = Math.floor((endTime.getTime() - nowDate.getTime()) / 1000);
+            // 时
+            let hour = Math.floor(times / 60 / 60 % 24);
+            let h = hour < 10 ? '0' + hour : hour;
+            $('.hours').text(h);
+            // 分
+            let minute = Math.floor((times - (hour * 60 * 60 * 24)) / 60 % 60);
+            let m = minute < 10 ? '0' + minute : minute;
+            $('.minutes').text(m);
+            // 秒
+            let second = Math.floor(times % 60);
+            let s = second < 10 ? '0' + second : second;
+            $('.seconds').text(s);
+
+            console.log(hour,minute,second);
+            if (hour==0&&minute==0&&second==0) {
+                clearInterval(timer);
+            }
+        }
+    </script>
 </body>
 
 </html>

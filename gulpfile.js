@@ -6,7 +6,7 @@ let cssmin = require('gulp-cssnano');
 let imgmin = require('gulp-imagemin');
 let rename = require('gulp-rename');
 let babel = require('gulp-babel');
-const imagemin = require('imagemin');
+
 
 //二、发布任务
 //js
@@ -49,6 +49,10 @@ function fnCopyPages(){
     return gulp.src('./src/pages/*.html')
         .pipe(gulp.dest('./dist/pages'));
 }
+function fnCopyJson(){
+    return gulp.src('./src/json/*.json')
+        .pipe(gulp.dest('./dist/json'));
+}
 //监听任务
 function fnWatch(){
     gulp.watch('./src/js/*.js',fnJS);
@@ -57,6 +61,7 @@ function fnWatch(){
     gulp.watch('./src/index.html',fnCopyIndex);
     gulp.watch('./src/pages/*.html',fnCopyPages);
     gulp.watch('./src/lib/*.js',fnCopyLib);
+    gulp.watch('./src/json/*.json',fnCopyJson);
 }
 
 
@@ -67,4 +72,5 @@ exports.img = fnIMG;
 exports.copyIndex = fnCopyIndex;
 exports.copyPages = fnCopyPages;
 exports.copyLib = fnCopyLib;
+exports.copyJson = fnCopyJson;
 exports.default = fnWatch;
